@@ -133,6 +133,9 @@
   <data name="CalculoPagos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Core\Src\CalculoPagos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnAdministracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Core\Src\btnAdministracion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LogoPNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Core\Src\LogoPNG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,7 +166,7 @@
   <data name="Volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Core\Src\Volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnAdministracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Core\Src\btnAdministracion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnTerminarAsistenciaDelDia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Core\Src\btnTerminarAsistenciaDelDia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

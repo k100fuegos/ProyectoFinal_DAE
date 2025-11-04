@@ -10,16 +10,27 @@ using System.Windows.Forms;
 
 namespace SistemaControlPersonal.Formularios
 {
-    public partial class PaginaPrincipal : Form
+    public partial class Asistencias : Form
     {
-        public PaginaPrincipal()
+        public Asistencias()
         {
             InitializeComponent();
         }
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Formularios.PaginaPrincipal().Show();
+        }
+
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            new Formularios.PaginaPrincipal().Show();
+        }
 
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
             DialogResult resultado = MessageBox.Show(
                 "¿Está seguro que desea cerrar el sistema?",
                 "Confirmar Salida",
@@ -31,18 +42,6 @@ namespace SistemaControlPersonal.Formularios
                 this.Close();
                 Application.Exit();
             }
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new Formularios.InicioDeSecion().Show();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new Formularios.Asistencias().Show();
         }
     }
 }
