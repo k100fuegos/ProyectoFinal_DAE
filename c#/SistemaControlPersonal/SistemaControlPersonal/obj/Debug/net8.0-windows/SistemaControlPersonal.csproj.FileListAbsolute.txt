@@ -1,0 +1,17 @@
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\bin\Debug\net8.0-windows\SistemaControlPersonal.exe
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\bin\Debug\net8.0-windows\SistemaControlPersonal.deps.json
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\bin\Debug\net8.0-windows\SistemaControlPersonal.runtimeconfig.json
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\bin\Debug\net8.0-windows\SistemaControlPersonal.dll
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\bin\Debug\net8.0-windows\SistemaControlPersonal.pdb
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.Form1.resources
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.csproj.GenerateResource.cache
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.csproj.CoreCompileInputs.cache
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.sourcelink.json
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.dll
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\refint\SistemaControlPersonal.dll
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.pdb
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\SistemaControlPersonal.genruntimeconfig.cache
+C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINAL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\obj\Debug\net8.0-windows\ref\SistemaControlPersonal.dll
