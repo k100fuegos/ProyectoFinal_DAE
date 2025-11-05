@@ -55,5 +55,11 @@ namespace SistemaControlPersonal.Formularios
             this.Hide();
             new Formularios.Administracion().Show();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Formularios.Consultas().Show();
+        }
     }
 }

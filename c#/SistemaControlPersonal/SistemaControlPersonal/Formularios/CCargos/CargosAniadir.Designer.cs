@@ -1,0 +1,330 @@
+﻿namespace SistemaControlPersonal.Formularios.CCargos
+{
+    partial class CargosAniadir
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            pictureBox1 = new PictureBox();
+            btnVolver = new PictureBox();
+            pictureBox2 = new PictureBox();
+            btnCerrar = new PictureBox();
+            btnMinimizar = new PictureBox();
+            groupBox1 = new GroupBox();
+            panel4 = new Panel();
+            textBox3 = new TextBox();
+            label3 = new Label();
+            panel3 = new Panel();
+            textBox2 = new TextBox();
+            label2 = new Label();
+            panel1 = new Panel();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            btnAceptar = new Button();
+            panel2 = new Panel();
+            txtComentario = new TextBox();
+            lblblb4 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnVolver).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
+            groupBox1.SuspendLayout();
+            SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.LogoPNG1;
+            pictureBox1.InitialImage = Properties.Resources.LogoPNG;
+            pictureBox1.Location = new Point(66, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(104, 96);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 12;
+            pictureBox1.TabStop = false;
+            // 
+            // btnVolver
+            // 
+            btnVolver.Cursor = Cursors.Hand;
+            btnVolver.Image = Properties.Resources.Volver;
+            btnVolver.Location = new Point(11, 12);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(30, 29);
+            btnVolver.SizeMode = PictureBoxSizeMode.Zoom;
+            btnVolver.TabIndex = 14;
+            btnVolver.TabStop = false;
+            btnVolver.Click += btnVolver_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = Properties.Resources.Home;
+            pictureBox2.Location = new Point(776, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(30, 29);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 19;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // btnCerrar
+            // 
+            btnCerrar.Cursor = Cursors.Hand;
+            btnCerrar.Image = Properties.Resources.cerrar;
+            btnCerrar.Location = new Point(849, 12);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new Size(30, 29);
+            btnCerrar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnCerrar.TabIndex = 20;
+            btnCerrar.TabStop = false;
+            btnCerrar.Click += btnCerrar_Click;
+            // 
+            // btnMinimizar
+            // 
+            btnMinimizar.Cursor = Cursors.Hand;
+            btnMinimizar.Image = Properties.Resources.minimizar;
+            btnMinimizar.Location = new Point(812, 12);
+            btnMinimizar.Name = "btnMinimizar";
+            btnMinimizar.Size = new Size(30, 29);
+            btnMinimizar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnMinimizar.TabIndex = 31;
+            btnMinimizar.TabStop = false;
+            btnMinimizar.Click += btnMinimizar_Click;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(panel4);
+            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(panel3);
+            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(panel1);
+            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Controls.Add(btnAceptar);
+            groupBox1.Controls.Add(panel2);
+            groupBox1.Controls.Add(txtComentario);
+            groupBox1.Controls.Add(lblblb4);
+            groupBox1.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox1.ForeColor = Color.FromArgb(254, 254, 254);
+            groupBox1.Location = new Point(207, 81);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(455, 692);
+            groupBox1.TabIndex = 32;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Añadir cargo";
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.FromArgb(255, 206, 0);
+            panel4.Location = new Point(22, 444);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(350, 5);
+            panel4.TabIndex = 34;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.FromArgb(27, 25, 25);
+            textBox3.BorderStyle = BorderStyle.None;
+            textBox3.Cursor = Cursors.IBeam;
+            textBox3.Font = new Font("Segoe UI", 12F);
+            textBox3.ForeColor = Color.FromArgb(254, 254, 254);
+            textBox3.Location = new Point(22, 411);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(350, 27);
+            textBox3.TabIndex = 33;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            label3.ForeColor = Color.FromArgb(239, 239, 239);
+            label3.Location = new Point(22, 379);
+            label3.Name = "label3";
+            label3.Size = new Size(144, 28);
+            label3.TabIndex = 32;
+            label3.Text = "Tipo de pago: ";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.FromArgb(255, 206, 0);
+            panel3.Location = new Point(22, 339);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(350, 5);
+            panel3.TabIndex = 31;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.FromArgb(27, 25, 25);
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Cursor = Cursors.IBeam;
+            textBox2.Font = new Font("Segoe UI", 12F);
+            textBox2.ForeColor = Color.FromArgb(254, 254, 254);
+            textBox2.Location = new Point(22, 305);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(350, 27);
+            textBox2.TabIndex = 30;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            label2.ForeColor = Color.FromArgb(239, 239, 239);
+            label2.Location = new Point(22, 273);
+            label2.Name = "label2";
+            label2.Size = new Size(131, 28);
+            label2.TabIndex = 29;
+            label2.Text = "Salario base: ";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(255, 206, 0);
+            panel1.Location = new Point(22, 245);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(350, 5);
+            panel1.TabIndex = 28;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.FromArgb(27, 25, 25);
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Cursor = Cursors.IBeam;
+            textBox1.Font = new Font("Segoe UI", 12F);
+            textBox1.ForeColor = Color.FromArgb(254, 254, 254);
+            textBox1.Location = new Point(22, 212);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(350, 27);
+            textBox1.TabIndex = 27;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            label1.ForeColor = Color.FromArgb(239, 239, 239);
+            label1.Location = new Point(22, 180);
+            label1.Name = "label1";
+            label1.Size = new Size(122, 28);
+            label1.TabIndex = 26;
+            label1.Text = "Descripcion:";
+            // 
+            // btnAceptar
+            // 
+            btnAceptar.BackColor = Color.FromArgb(27, 25, 25);
+            btnAceptar.FlatAppearance.BorderColor = Color.FromArgb(255, 206, 0);
+            btnAceptar.FlatAppearance.BorderSize = 2;
+            btnAceptar.FlatStyle = FlatStyle.Flat;
+            btnAceptar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAceptar.ForeColor = Color.FromArgb(254, 254, 254);
+            btnAceptar.Location = new Point(169, 577);
+            btnAceptar.Name = "btnAceptar";
+            btnAceptar.Size = new Size(121, 43);
+            btnAceptar.TabIndex = 25;
+            btnAceptar.Text = "Aceptar";
+            btnAceptar.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(255, 206, 0);
+            panel2.Location = new Point(22, 143);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(350, 5);
+            panel2.TabIndex = 8;
+            // 
+            // txtComentario
+            // 
+            txtComentario.BackColor = Color.FromArgb(27, 25, 25);
+            txtComentario.BorderStyle = BorderStyle.None;
+            txtComentario.Cursor = Cursors.IBeam;
+            txtComentario.Font = new Font("Segoe UI", 12F);
+            txtComentario.ForeColor = Color.FromArgb(254, 254, 254);
+            txtComentario.Location = new Point(22, 109);
+            txtComentario.Name = "txtComentario";
+            txtComentario.Size = new Size(350, 27);
+            txtComentario.TabIndex = 7;
+            // 
+            // lblblb4
+            // 
+            lblblb4.AutoSize = true;
+            lblblb4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            lblblb4.ForeColor = Color.FromArgb(239, 239, 239);
+            lblblb4.Location = new Point(22, 77);
+            lblblb4.Name = "lblblb4";
+            lblblb4.Size = new Size(92, 28);
+            lblblb4.TabIndex = 6;
+            lblblb4.Text = "Nombre:";
+            // 
+            // CargosAniadir
+            // 
+            AccessibleRole = AccessibleRole.Client;
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(27, 25, 25);
+            ClientSize = new Size(891, 824);
+            Controls.Add(groupBox1);
+            Controls.Add(btnMinimizar);
+            Controls.Add(btnCerrar);
+            Controls.Add(pictureBox2);
+            Controls.Add(btnVolver);
+            Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
+            MinimizeBox = false;
+            Name = "CargosAniadir";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Empleados";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnVolver).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnCerrar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private PictureBox pictureBox1;
+        private PictureBox btnVolver;
+        private PictureBox pictureBox2;
+        private PictureBox btnCerrar;
+        private PictureBox btnMinimizar;
+        private GroupBox groupBox1;
+        private Button btnAceptar;
+        private Panel panel2;
+        private TextBox txtComentario;
+        private Label lblblb4;
+        private Panel panel4;
+        private TextBox textBox3;
+        private Label label3;
+        private Panel panel3;
+        private TextBox textBox2;
+        private Label label2;
+        private Panel panel1;
+        private TextBox textBox1;
+        private Label label1;
+    }
+}

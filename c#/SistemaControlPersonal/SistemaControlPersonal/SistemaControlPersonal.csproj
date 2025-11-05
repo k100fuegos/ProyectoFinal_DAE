@@ -17,13 +17,30 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Formularios\Empleados\EmpleadosEditar.cs">
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Formularios\Consultas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\Empleados\EmpleadosAniadir.cs">
+    <Compile Update="Formularios\CCargos\Cargos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\Empleados\Empleados.cs">
+    <Compile Update="Formularios\CCargos\CargosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CCargos\CargosAniadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CEmpleados\EmpleadosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CEmpleados\EmpleadosAniadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CEmpleados\Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\Administracion.cs">

@@ -36,7 +36,7 @@ namespace SistemaControlPersonal.Formularios
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Formularios.InicioDeSecion().Show();
+            new Formularios.PaginaPrincipal().Show();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -52,7 +52,8 @@ namespace SistemaControlPersonal.Formularios
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new Formularios.CCargos.Cargos().Show();
         }
     }
 }
