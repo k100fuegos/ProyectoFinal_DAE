@@ -44,5 +44,16 @@ namespace SistemaControlPersonal.Formularios
             this.Hide();
             new Formularios.Asistencias().Show();
         }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Formularios.Administracion().Show();
+        }
     }
 }
