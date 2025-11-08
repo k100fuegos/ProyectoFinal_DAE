@@ -123,6 +123,16 @@ namespace SistemaControlPersonal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnCalcularPago {
+            get {
+                object obj = ResourceManager.GetObject("btnCalcularPago", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCalculoPagos {
             get {
                 object obj = ResourceManager.GetObject("btnCalculoPagos", resourceCulture);

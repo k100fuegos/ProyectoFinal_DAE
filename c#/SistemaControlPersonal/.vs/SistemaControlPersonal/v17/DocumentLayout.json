@@ -1,29 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\",
+  "WorkspaceRootPath": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\calculopagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\calculopagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\calculopagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\calculopagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\calculopagos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\calculopagos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\ccargos\\cargosaniadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\ccargos\\cargosaniadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\ccargos\\cargosaniadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,48 +50,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculoPagos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CalculoPagos.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\CalculoPagos.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CalculoPagos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\CalculoPagos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:50:49.359Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaginaPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAtwD0AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CalculoPagos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CalculoPagos.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\CalculoPagos.Designer.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CalculoPagos.Designer.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\CalculoPagos.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:09:01.515Z",
+              "WhenOpened": "2025-11-08T01:47:19.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CalculoPagos.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CalculoPagos.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\CalculoPagos.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CalculoPagos.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\CalculoPagos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:47:01.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginaPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:48:33.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PaginaPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
               "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T16:08:37.118Z",
@@ -83,11 +117,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "PaginaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:09:01.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CargosAniadir.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs",
               "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs",
-              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T16:05:55.118Z",
@@ -95,11 +142,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Consultas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
               "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Consultas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T16:03:38.013Z",
@@ -107,26 +154,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Consultas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
               "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
-              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
               "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T16:03:31.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Consultas.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
               "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
+              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
               "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T16:03:24.988Z",
               "EditorCaption": ""
