@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\",
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\ccargos\\cargosaniadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\ccargos\\cargosaniadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\core\\dao\\iasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\core\\dao\\iasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\consultas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\core\\dao\\asistenciasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\core\\dao\\asistenciasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\core\\clases\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\core\\clases\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\henry\\onedrive\\documentos\\a dae 2025\\proyectofinal\\proyectofinal_dae\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\core\\lib\\cnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\core\\lib\\cnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,89 +34,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaginaPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T01:48:33.644Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaginaPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:08:37.118Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaginaPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:09:01.515Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CargosAniadir.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\CCargos\\CargosAniadir.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:05:55.118Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Consultas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Consultas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:03:38.013Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Consultas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Consultas.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAUAAAAgAAAAAAAAAA==",
+              "Title": "Asistencias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Asistencias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:03:31.365Z"
+              "WhenOpened": "2025-11-08T02:43:29.915Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cnn.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Lib\\Cnn.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Core\\Lib\\Cnn.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Lib\\Cnn.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Core\\Lib\\Cnn.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:35:36.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AsistenciasDao.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Dao\\AsistenciasDao.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Core\\Dao\\AsistenciasDao.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Dao\\AsistenciasDao.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Core\\Dao\\AsistenciasDao.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAjwCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:00:26.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Asistencias.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Clases\\Asistencias.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Core\\Clases\\Asistencias.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Clases\\Asistencias.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Core\\Clases\\Asistencias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:49:19.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Consultas.cs",
-              "DocumentMoniker": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "ToolTip": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINAL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Consultas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Title": "IAsistencias.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Dao\\IAsistencias.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Core\\Dao\\IAsistencias.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Core\\Dao\\IAsistencias.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Core\\Dao\\IAsistencias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:03:24.988Z"
+              "WhenOpened": "2025-11-08T01:47:52.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Asistencias.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAWwEEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:45:27.115Z",
+              "EditorCaption": ""
             }
           ]
         }

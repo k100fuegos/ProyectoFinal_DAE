@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaControlPersonal.Core.Lib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,9 @@ namespace SistemaControlPersonal.Formularios
         {
             InitializeComponent();
         }
+
+
+        Cnn Cnn = new Cnn();
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {

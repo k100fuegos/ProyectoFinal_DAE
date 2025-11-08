@@ -10,8 +10,9 @@
 
 namespace SistemaControlPersonal.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
     /// </summary>
@@ -23,7 +24,7 @@ namespace SistemaControlPersonal.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image btnCalcularPago;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -116,16 +117,6 @@ namespace SistemaControlPersonal.Properties {
         internal static System.Drawing.Bitmap btnAsistencias1 {
             get {
                 object obj = ResourceManager.GetObject("btnAsistencias1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap btnCalcularPago {
-            get {
-                object obj = ResourceManager.GetObject("btnCalcularPago", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

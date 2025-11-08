@@ -42,7 +42,7 @@ namespace SistemaControlPersonal.Formularios
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Formularios.Asistencias().Show();
+            new Formularios.frmAsistencias().Show();
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)

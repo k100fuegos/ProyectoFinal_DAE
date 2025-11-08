@@ -1,6 +1,6 @@
 ﻿namespace SistemaControlPersonal.Formularios
 {
-    partial class Asistencias
+    partial class frmAsistencias
     {
         /// <summary>
         /// Required designer variable.
@@ -295,7 +295,7 @@
             btnMinimizar.TabStop = false;
             btnMinimizar.Click += btnMinimizar_Click;
             // 
-            // Asistencias
+            // frmAsistencias
             // 
             AccessibleRole = AccessibleRole.Client;
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -316,9 +316,10 @@
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             MinimizeBox = false;
-            Name = "Asistencias";
+            Name = "frmAsistencias";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Asistencias";
+            Load += frmAsistencias_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnVolver).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
