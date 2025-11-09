@@ -265,6 +265,7 @@
             dgvAsistencias.RowHeadersWidth = 51;
             dgvAsistencias.Size = new Size(771, 427);
             dgvAsistencias.TabIndex = 41;
+            dgvAsistencias.SelectionChanged += dgvAsistencias_SelectionChanged;
             // 
             // pictureBox3
             // 
