@@ -144,6 +144,7 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(812, 22);
             txtBusqueda.TabIndex = 30;
+            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
             // 
             // btnMinimizar
             // 
@@ -220,6 +221,7 @@
             Name = "Empleados";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Empleados";
+            Load += Empleados_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnVolver).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
