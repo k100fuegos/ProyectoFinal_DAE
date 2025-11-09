@@ -56,9 +56,10 @@
             // 
             pictureBox1.Image = Properties.Resources.LogoPNG1;
             pictureBox1.InitialImage = Properties.Resources.LogoPNG;
-            pictureBox1.Location = new Point(66, 12);
+            pictureBox1.Location = new Point(58, 9);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(104, 96);
+            pictureBox1.Size = new Size(91, 72);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
@@ -67,9 +68,10 @@
             // 
             btnVolver.Cursor = Cursors.Hand;
             btnVolver.Image = Properties.Resources.Volver;
-            btnVolver.Location = new Point(11, 12);
+            btnVolver.Location = new Point(10, 9);
+            btnVolver.Margin = new Padding(3, 2, 3, 2);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(30, 29);
+            btnVolver.Size = new Size(26, 22);
             btnVolver.SizeMode = PictureBoxSizeMode.Zoom;
             btnVolver.TabIndex = 14;
             btnVolver.TabStop = false;
@@ -79,9 +81,10 @@
             // 
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = Properties.Resources.Home;
-            pictureBox2.Location = new Point(1270, 12);
+            pictureBox2.Location = new Point(1111, 9);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 29);
+            pictureBox2.Size = new Size(26, 22);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 19;
             pictureBox2.TabStop = false;
@@ -91,9 +94,10 @@
             // 
             btnCerrar.Cursor = Cursors.Hand;
             btnCerrar.Image = Properties.Resources.cerrar;
-            btnCerrar.Location = new Point(1343, 12);
+            btnCerrar.Location = new Point(1175, 9);
+            btnCerrar.Margin = new Padding(3, 2, 3, 2);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(30, 29);
+            btnCerrar.Size = new Size(26, 22);
             btnCerrar.SizeMode = PictureBoxSizeMode.Zoom;
             btnCerrar.TabIndex = 20;
             btnCerrar.TabStop = false;
@@ -102,17 +106,19 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(255, 206, 0);
-            panel1.Location = new Point(66, 187);
+            panel1.Location = new Point(58, 140);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1234, 5);
+            panel1.Size = new Size(1080, 4);
             panel1.TabIndex = 21;
             // 
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.busqueda;
-            pictureBox3.Location = new Point(1270, 153);
+            pictureBox3.Location = new Point(1111, 115);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(30, 29);
+            pictureBox3.Size = new Size(26, 22);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 22;
             pictureBox3.TabStop = false;
@@ -120,10 +126,11 @@
             // dgvAsistencias
             // 
             dgvAsistencias.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAsistencias.Location = new Point(66, 211);
+            dgvAsistencias.Location = new Point(58, 158);
+            dgvAsistencias.Margin = new Padding(3, 2, 3, 2);
             dgvAsistencias.Name = "dgvAsistencias";
             dgvAsistencias.RowHeadersWidth = 51;
-            dgvAsistencias.Size = new Size(1234, 569);
+            dgvAsistencias.Size = new Size(1080, 427);
             dgvAsistencias.TabIndex = 23;
             // 
             // txtBusqueda
@@ -133,18 +140,20 @@
             txtBusqueda.Cursor = Cursors.IBeam;
             txtBusqueda.Font = new Font("Segoe UI", 12F);
             txtBusqueda.ForeColor = Color.FromArgb(254, 254, 254);
-            txtBusqueda.Location = new Point(66, 155);
+            txtBusqueda.Location = new Point(58, 116);
+            txtBusqueda.Margin = new Padding(3, 2, 3, 2);
             txtBusqueda.Name = "txtBusqueda";
-            txtBusqueda.Size = new Size(845, 27);
+            txtBusqueda.Size = new Size(739, 22);
             txtBusqueda.TabIndex = 30;
             // 
             // btnMinimizar
             // 
             btnMinimizar.Cursor = Cursors.Hand;
             btnMinimizar.Image = Properties.Resources.minimizar;
-            btnMinimizar.Location = new Point(1306, 12);
+            btnMinimizar.Location = new Point(1143, 9);
+            btnMinimizar.Margin = new Padding(3, 2, 3, 2);
             btnMinimizar.Name = "btnMinimizar";
-            btnMinimizar.Size = new Size(30, 29);
+            btnMinimizar.Size = new Size(26, 22);
             btnMinimizar.SizeMode = PictureBoxSizeMode.Zoom;
             btnMinimizar.TabIndex = 31;
             btnMinimizar.TabStop = false;
@@ -153,9 +162,10 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(255, 206, 0);
-            panel2.Location = new Point(225, 96);
+            panel2.Location = new Point(197, 72);
+            panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(350, 5);
+            panel2.Size = new Size(306, 4);
             panel2.TabIndex = 34;
             // 
             // txtFechaInicio
@@ -165,9 +175,10 @@
             txtFechaInicio.Cursor = Cursors.IBeam;
             txtFechaInicio.Font = new Font("Segoe UI", 12F);
             txtFechaInicio.ForeColor = Color.FromArgb(254, 254, 254);
-            txtFechaInicio.Location = new Point(225, 62);
+            txtFechaInicio.Location = new Point(197, 46);
+            txtFechaInicio.Margin = new Padding(3, 2, 3, 2);
             txtFechaInicio.Name = "txtFechaInicio";
-            txtFechaInicio.Size = new Size(350, 27);
+            txtFechaInicio.Size = new Size(306, 22);
             txtFechaInicio.TabIndex = 33;
             // 
             // lblblb4
@@ -175,18 +186,19 @@
             lblblb4.AutoSize = true;
             lblblb4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             lblblb4.ForeColor = Color.FromArgb(239, 239, 239);
-            lblblb4.Location = new Point(225, 30);
+            lblblb4.Location = new Point(197, 22);
             lblblb4.Name = "lblblb4";
-            lblblb4.Size = new Size(152, 28);
+            lblblb4.Size = new Size(122, 21);
             lblblb4.TabIndex = 32;
             lblblb4.Text = "Fecha de inicio:";
             // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(255, 206, 0);
-            panel3.Location = new Point(653, 96);
+            panel3.Location = new Point(571, 72);
+            panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(350, 5);
+            panel3.Size = new Size(306, 4);
             panel3.TabIndex = 37;
             // 
             // txtFechaFin
@@ -196,9 +208,10 @@
             txtFechaFin.Cursor = Cursors.IBeam;
             txtFechaFin.Font = new Font("Segoe UI", 12F);
             txtFechaFin.ForeColor = Color.FromArgb(254, 254, 254);
-            txtFechaFin.Location = new Point(653, 62);
+            txtFechaFin.Location = new Point(571, 46);
+            txtFechaFin.Margin = new Padding(3, 2, 3, 2);
             txtFechaFin.Name = "txtFechaFin";
-            txtFechaFin.Size = new Size(350, 27);
+            txtFechaFin.Size = new Size(306, 22);
             txtFechaFin.TabIndex = 36;
             // 
             // label1
@@ -206,19 +219,19 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(239, 239, 239);
-            label1.Location = new Point(653, 30);
+            label1.Location = new Point(571, 22);
             label1.Name = "label1";
-            label1.Size = new Size(128, 28);
+            label1.Size = new Size(102, 21);
             label1.TabIndex = 35;
             label1.Text = "Fecha de fin:";
             // 
             // Consultas
             // 
             AccessibleRole = AccessibleRole.Client;
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 25, 25);
-            ClientSize = new Size(1385, 833);
+            ClientSize = new Size(1212, 625);
             Controls.Add(panel3);
             Controls.Add(txtFechaFin);
             Controls.Add(panel2);
@@ -235,10 +248,12 @@
             Controls.Add(btnVolver);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             MinimizeBox = false;
             Name = "Consultas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Asistencias";
+            Load += Consultas_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnVolver).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
