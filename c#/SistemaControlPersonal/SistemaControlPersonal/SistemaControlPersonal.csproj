@@ -24,9 +24,7 @@
     <Compile Update="Formularios\Consultas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\CCargos\Cargos.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="Formularios\CCargos\Cargos.cs" />
     <Compile Update="Formularios\CCargos\CargosEditar.cs">
       <SubType>Form</SubType>
     </Compile>

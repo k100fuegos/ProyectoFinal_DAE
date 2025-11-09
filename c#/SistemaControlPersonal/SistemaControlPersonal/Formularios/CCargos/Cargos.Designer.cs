@@ -40,6 +40,7 @@
             btnAniadirEmpleados = new PictureBox();
             btnModificarEmpleado = new PictureBox();
             label2 = new Label();
+            btnEliminarCargo = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnVolver).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -49,15 +50,17 @@
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnAniadirEmpleados).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnModificarEmpleado).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnEliminarCargo).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.LogoPNG1;
             pictureBox1.InitialImage = Properties.Resources.LogoPNG;
-            pictureBox1.Location = new Point(66, 12);
+            pictureBox1.Location = new Point(58, 9);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(104, 96);
+            pictureBox1.Size = new Size(91, 72);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
@@ -66,9 +69,10 @@
             // 
             btnVolver.Cursor = Cursors.Hand;
             btnVolver.Image = Properties.Resources.Volver;
-            btnVolver.Location = new Point(11, 12);
+            btnVolver.Location = new Point(10, 9);
+            btnVolver.Margin = new Padding(3, 2, 3, 2);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(30, 29);
+            btnVolver.Size = new Size(26, 22);
             btnVolver.SizeMode = PictureBoxSizeMode.Zoom;
             btnVolver.TabIndex = 14;
             btnVolver.TabStop = false;
@@ -78,9 +82,10 @@
             // 
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = Properties.Resources.Home;
-            pictureBox2.Location = new Point(1270, 12);
+            pictureBox2.Location = new Point(1111, 9);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 29);
+            pictureBox2.Size = new Size(26, 22);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 19;
             pictureBox2.TabStop = false;
@@ -90,9 +95,10 @@
             // 
             btnCerrar.Cursor = Cursors.Hand;
             btnCerrar.Image = Properties.Resources.cerrar;
-            btnCerrar.Location = new Point(1343, 12);
+            btnCerrar.Location = new Point(1175, 9);
+            btnCerrar.Margin = new Padding(3, 2, 3, 2);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(30, 29);
+            btnCerrar.Size = new Size(26, 22);
             btnCerrar.SizeMode = PictureBoxSizeMode.Zoom;
             btnCerrar.TabIndex = 20;
             btnCerrar.TabStop = false;
@@ -101,17 +107,19 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(255, 206, 0);
-            panel1.Location = new Point(66, 189);
+            panel1.Location = new Point(58, 142);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(963, 7);
+            panel1.Size = new Size(843, 5);
             panel1.TabIndex = 21;
             // 
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.busqueda;
-            pictureBox3.Location = new Point(1000, 151);
+            pictureBox3.Location = new Point(875, 113);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(30, 29);
+            pictureBox3.Size = new Size(26, 22);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 22;
             pictureBox3.TabStop = false;
@@ -119,10 +127,11 @@
             // dgvEmpleados
             // 
             dgvEmpleados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEmpleados.Location = new Point(66, 211);
+            dgvEmpleados.Location = new Point(58, 158);
+            dgvEmpleados.Margin = new Padding(3, 2, 3, 2);
             dgvEmpleados.Name = "dgvEmpleados";
             dgvEmpleados.RowHeadersWidth = 51;
-            dgvEmpleados.Size = new Size(968, 569);
+            dgvEmpleados.Size = new Size(847, 427);
             dgvEmpleados.TabIndex = 23;
             // 
             // txtBusqueda
@@ -132,18 +141,20 @@
             txtBusqueda.Cursor = Cursors.IBeam;
             txtBusqueda.Font = new Font("Segoe UI", 12F);
             txtBusqueda.ForeColor = Color.FromArgb(254, 254, 254);
-            txtBusqueda.Location = new Point(66, 155);
+            txtBusqueda.Location = new Point(58, 116);
+            txtBusqueda.Margin = new Padding(3, 2, 3, 2);
             txtBusqueda.Name = "txtBusqueda";
-            txtBusqueda.Size = new Size(928, 27);
+            txtBusqueda.Size = new Size(812, 22);
             txtBusqueda.TabIndex = 30;
             // 
             // btnMinimizar
             // 
             btnMinimizar.Cursor = Cursors.Hand;
             btnMinimizar.Image = Properties.Resources.minimizar;
-            btnMinimizar.Location = new Point(1306, 12);
+            btnMinimizar.Location = new Point(1143, 9);
+            btnMinimizar.Margin = new Padding(3, 2, 3, 2);
             btnMinimizar.Name = "btnMinimizar";
-            btnMinimizar.Size = new Size(30, 29);
+            btnMinimizar.Size = new Size(26, 22);
             btnMinimizar.SizeMode = PictureBoxSizeMode.Zoom;
             btnMinimizar.TabIndex = 31;
             btnMinimizar.TabStop = false;
@@ -152,10 +163,11 @@
             // btnAniadirEmpleados
             // 
             btnAniadirEmpleados.Cursor = Cursors.Hand;
-            btnAniadirEmpleados.Image = Properties.Resources.btnAniadirEmpleado;
-            btnAniadirEmpleados.Location = new Point(1071, 292);
+            btnAniadirEmpleados.Image = Properties.Resources.btnAgregarCargo1;
+            btnAniadirEmpleados.Location = new Point(937, 219);
+            btnAniadirEmpleados.Margin = new Padding(3, 2, 3, 2);
             btnAniadirEmpleados.Name = "btnAniadirEmpleados";
-            btnAniadirEmpleados.Size = new Size(302, 93);
+            btnAniadirEmpleados.Size = new Size(264, 70);
             btnAniadirEmpleados.SizeMode = PictureBoxSizeMode.Zoom;
             btnAniadirEmpleados.TabIndex = 18;
             btnAniadirEmpleados.TabStop = false;
@@ -164,10 +176,11 @@
             // btnModificarEmpleado
             // 
             btnModificarEmpleado.Cursor = Cursors.Hand;
-            btnModificarEmpleado.Image = Properties.Resources.btnModificarEmpleado;
-            btnModificarEmpleado.Location = new Point(1071, 455);
+            btnModificarEmpleado.Image = Properties.Resources.btnEditarCargo1;
+            btnModificarEmpleado.Location = new Point(936, 333);
+            btnModificarEmpleado.Margin = new Padding(3, 2, 3, 2);
             btnModificarEmpleado.Name = "btnModificarEmpleado";
-            btnModificarEmpleado.Size = new Size(302, 93);
+            btnModificarEmpleado.Size = new Size(264, 70);
             btnModificarEmpleado.SizeMode = PictureBoxSizeMode.Zoom;
             btnModificarEmpleado.TabIndex = 32;
             btnModificarEmpleado.TabStop = false;
@@ -178,19 +191,33 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold);
             label2.ForeColor = Color.FromArgb(239, 239, 239);
-            label2.Location = new Point(567, 12);
+            label2.Location = new Point(496, 9);
             label2.Name = "label2";
-            label2.Size = new Size(127, 46);
+            label2.Size = new Size(102, 37);
             label2.TabIndex = 33;
             label2.Text = "Cargos";
+            // 
+            // btnEliminarCargo
+            // 
+            btnEliminarCargo.Cursor = Cursors.Hand;
+            btnEliminarCargo.Image = Properties.Resources.btnEliminarCargo;
+            btnEliminarCargo.Location = new Point(937, 448);
+            btnEliminarCargo.Margin = new Padding(3, 2, 3, 2);
+            btnEliminarCargo.Name = "btnEliminarCargo";
+            btnEliminarCargo.Size = new Size(264, 70);
+            btnEliminarCargo.SizeMode = PictureBoxSizeMode.Zoom;
+            btnEliminarCargo.TabIndex = 34;
+            btnEliminarCargo.TabStop = false;
+            btnEliminarCargo.Click += pictureBox4_Click;
             // 
             // Cargos
             // 
             AccessibleRole = AccessibleRole.Client;
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 25, 25);
-            ClientSize = new Size(1385, 833);
+            ClientSize = new Size(1212, 625);
+            Controls.Add(btnEliminarCargo);
             Controls.Add(label2);
             Controls.Add(btnModificarEmpleado);
             Controls.Add(btnMinimizar);
@@ -204,6 +231,7 @@
             Controls.Add(btnVolver);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             MinimizeBox = false;
             Name = "Cargos";
             StartPosition = FormStartPosition.CenterScreen;
@@ -217,6 +245,7 @@
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnAniadirEmpleados).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnModificarEmpleado).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnEliminarCargo).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -235,5 +264,6 @@
         private PictureBox btnAniadirEmpleados;
         private PictureBox btnModificarEmpleado;
         private Label label2;
+        private PictureBox btnEliminarCargo;
     }
 }
