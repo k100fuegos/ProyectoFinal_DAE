@@ -26,6 +26,7 @@ namespace SistemaControlPersonal.Core.Dao
                 string sql = $@"
                     SELECT
                         E.ID_Empleado,
+                        E.codigo_empleado,
                         E.nombre_empleado,
                         C.nombre_cargo,
                         A.estado_asistencia,
@@ -66,24 +67,21 @@ namespace SistemaControlPersonal.Core.Dao
         {
             var a = new Asistencias();
 
-            // Índices según SELECT: 0=ID_Empleado,1=nombre_empleado,2=nombre_cargo,3=estado_asistencia,4=nota,5=fecha
-            a.CodigoEmpleado = rd.IsDBNull(0) ? 0 : Convert.ToInt32(rd.GetValue(0));
-            a.NombreEmpleado = rd.IsDBNull(1) ? string.Empty : rd.GetString(1);
-            a.Cargo = rd.IsDBNull(2) ? string.Empty : rd.GetString(2);
+            // Índices: 0=ID_Empleado,1=codigo_empleado,2=nombre_empleado,3=nombre_cargo,4=estado_asistencia,5=nota,6=fecha
+            a.CodigoEmpleado = rd.IsDBNull(0) ? 0 : Convert.ToInt32(rd.GetValue(0)); // ID interno (PK)
+            a.CodigoExterno = rd.IsDBNull(1) ? string.Empty : rd.GetValue(1).ToString(); // código visible (puede ser int en BD)
+            a.NombreEmpleado = rd.IsDBNull(2) ? string.Empty : rd.GetValue(2).ToString();
+            a.Cargo = rd.IsDBNull(3) ? string.Empty : rd.GetValue(3).ToString();
+            a.Estado_asistencia = rd.IsDBNull(4) ? "no registrada" : rd.GetValue(4).ToString();
+            a.Nota = rd.IsDBNull(5) ? "Ninguna" : rd.GetValue(5).ToString();
 
-            // Si no hay registro de asistencia para la fecha, mostrar "no registrada"
-            a.Estado_asistencia = rd.IsDBNull(3) ? "no registrada" : rd.GetString(3);
-
-            // Si no hay nota, mostrar "Ninguna"
-            a.Nota = rd.IsDBNull(4) ? "Ninguna" : rd.GetString(4);
-
-            if (rd.IsDBNull(5))
+            if (rd.IsDBNull(6))
             {
                 a.Fecha = string.Empty;
             }
             else
             {
-                var val = rd.GetValue(5);
+                var val = rd.GetValue(6);
                 if (val is DateTime dt)
                     a.Fecha = dt.ToString("dd/MM/yyyy");
                 else
@@ -93,10 +91,8 @@ namespace SistemaControlPersonal.Core.Dao
             return a;
         }
 
-        // Verifica existencia de asistencia para un empleado en una fecha concreta
         public bool ExistsAttendance(int idEmpleado, DateTime fecha)
         {
-            SqlDataReader rd = null;
             try
             {
                 Con = OpenDb();
@@ -114,37 +110,6 @@ namespace SistemaControlPersonal.Core.Dao
             }
             finally
             {
-                rd?.Close();
-                CloseDB();
-            }
-        }
-
-        public Asistencias GetById(int idAsistencia)
-        {
-            SqlDataReader rd = null;
-
-            try
-            {
-                Con = OpenDb();
-
-                command = new SqlCommand(@"SELECT IdPropietario, Nombre, Apellido, DUI, Telefono, Direccion 
-                                       FROM Propietarios
-                                       WHERE IdPropietario = @id", Con);
-                command.Parameters.Add("@id", SqlDbType.Int).Value = idAsistencia;
-
-                rd = command.ExecuteReader(CommandBehavior.SingleRow);
-
-                if (!rd.Read())
-                {
-                    return null;
-                }
-
-                return Map(rd);
-            }
-            finally
-            {
-                rd?.Close();
-                command?.Dispose();
                 CloseDB();
             }
         }
@@ -169,6 +134,14 @@ namespace SistemaControlPersonal.Core.Dao
 
                 var id = (int)command.ExecuteScalar();
                 return id;
+            }
+            catch (SqlException ex)
+            {
+                if (ex.Number == 2627 || ex.Number == 2601)
+                {
+                    throw new InvalidOperationException("No se puede registrar la asistencia: ya existe una asistencia para ese empleado en la fecha indicada.", ex);
+                }
+                throw;
             }
             finally
             {

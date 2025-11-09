@@ -136,6 +136,7 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(739, 22);
             txtBusqueda.TabIndex = 44;
+            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
             // 
             // groupBox1
             // 

@@ -39,7 +39,7 @@ namespace SistemaControlPersonal.Formularios
             {
                 Name = "codigo_empleadoCol",
                 HeaderText = "Código",
-                DataPropertyName = "CodigoEmpleado",
+                DataPropertyName = "CodigoExterno", // mostrar el código visible en la UI
                 MinimumWidth = 60
             });
 
@@ -101,7 +101,26 @@ namespace SistemaControlPersonal.Formularios
         {
             try
             {
-                dgvAsistencias.DataSource = AsistenciasDao.GetAll(filtro, fechaFiltro);
+                List<Asistencias> list;
+                if (fechaFiltro.HasValue)
+                {
+                    list = AsistenciasDao.GetAll(string.Empty, fechaFiltro);
+                }
+                else
+                {
+                    list = AsistenciasDao.GetAll(filtro);
+                }
+
+                if (!string.IsNullOrWhiteSpace(filtro))
+                {
+                    string f = filtro.Trim();
+                    list = list.Where(a =>
+                        (!string.IsNullOrWhiteSpace(a.NombreEmpleado) && a.NombreEmpleado.IndexOf(f, StringComparison.OrdinalIgnoreCase) >= 0)
+                        || (!string.IsNullOrWhiteSpace(a.CodigoExterno) && a.CodigoExterno.IndexOf(f, StringComparison.OrdinalIgnoreCase) >= 0)
+                    ).ToList();
+                }
+
+                dgvAsistencias.DataSource = list;
             }
             catch (Exception ex)
             {
@@ -210,11 +229,20 @@ namespace SistemaControlPersonal.Formularios
 
             var fila = dgvAsistencias.SelectedRows[0];
 
-            object valId = fila.Cells["codigo_empleadoCol"].Value;
-            if (valId == null || !int.TryParse(valId.ToString(), out int idEmpleado))
+            // Obtener ID real del empleado desde el objeto enlazado, no desde la celda visible
+            int idEmpleado;
+            if (fila.DataBoundItem is Asistencias bound)
             {
-                MessageBox.Show("No se pudo obtener el ID del empleado seleccionado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                idEmpleado = bound.CodigoEmpleado;
+            }
+            else
+            {
+                object valId = fila.Cells["codigo_empleadoCol"].Value;
+                if (valId == null || !int.TryParse(valId.ToString(), out idEmpleado))
+                {
+                    MessageBox.Show("No se pudo obtener el ID del empleado seleccionado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             }
 
             var textoFecha = mtxtFecha.Text?.Trim();
@@ -279,6 +307,11 @@ namespace SistemaControlPersonal.Formularios
                     MessageBox.Show("No se pudo registrar la asistencia.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show(ex.Message, "Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al insertar la asistencia:\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -334,8 +367,28 @@ namespace SistemaControlPersonal.Formularios
                 }
             }
         }
+
+        private void txtBusqueda_TextChanged(object sender, EventArgs e)
+        {
+            string filtro = string.Empty;
+            if (sender is TextBox tb)
+            {
+                filtro = tb.Text ?? string.Empty;
+            }
+            else
+            {
+                var ctrl = this.Controls.Find("txtBusqueda", true).FirstOrDefault() as TextBox;
+                filtro = ctrl?.Text ?? string.Empty;
+            }
+
+            DateTime? fechaFiltro = null;
+            var textoFecha = mtxtFecha.Text?.Trim();
+            if (!string.IsNullOrWhiteSpace(textoFecha) && DateTime.TryParseExact(textoFecha, "dd/MM/yyyy", CultureInfo.CurrentCulture, DateTimeStyles.None, out var fecha))
+            {
+                fechaFiltro = fecha.Date;
+            }
+
+            Cargar(filtro, fechaFiltro);
+        }
     }
-
-    //Primer cafe 12:50 pm
-
 }
