@@ -28,14 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
-            btnVolver = new PictureBox();
-            pictureBox7 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            btnCerrar = new PictureBox();
-            panel1 = new Panel();
-            pictureBox3 = new PictureBox();
-            dgvAsistencias = new DataGridView();
+            btnIniciar = new Button();
+            mtxtFecha = new MaskedTextBox();
+            panel3 = new Panel();
+            btnMinimizar = new PictureBox();
+            label1 = new Label();
+            txtBusqueda = new TextBox();
             groupBox1 = new GroupBox();
             rbtJustificado = new RadioButton();
             rbtAusente = new RadioButton();
@@ -45,111 +43,99 @@
             panel2 = new Panel();
             txtComentario = new TextBox();
             lblblb4 = new Label();
-            txtBusqueda = new TextBox();
-            btnMinimizar = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)btnVolver).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvAsistencias).BeginInit();
-            groupBox1.SuspendLayout();
+            dgvAsistencias = new DataGridView();
+            pictureBox3 = new PictureBox();
+            panel1 = new Panel();
+            btnCerrar = new PictureBox();
+            pictureBox2 = new PictureBox();
+            btnVolver = new PictureBox();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvAsistencias).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnVolver).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // btnIniciar
             // 
-            pictureBox1.Image = Properties.Resources.LogoPNG1;
-            pictureBox1.InitialImage = Properties.Resources.LogoPNG;
-            pictureBox1.Location = new Point(58, 9);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(91, 72);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 12;
-            pictureBox1.TabStop = false;
+            btnIniciar.BackColor = Color.FromArgb(27, 25, 25);
+            btnIniciar.FlatAppearance.BorderColor = Color.FromArgb(255, 206, 0);
+            btnIniciar.FlatAppearance.BorderSize = 2;
+            btnIniciar.FlatStyle = FlatStyle.Flat;
+            btnIniciar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnIniciar.ForeColor = Color.FromArgb(254, 254, 254);
+            btnIniciar.Location = new Point(604, 24);
+            btnIniciar.Margin = new Padding(3, 2, 3, 2);
+            btnIniciar.Name = "btnIniciar";
+            btnIniciar.Size = new Size(194, 61);
+            btnIniciar.TabIndex = 43;
+            btnIniciar.Text = "Iniciar asistencia del dia";
+            btnIniciar.UseVisualStyleBackColor = false;
+            btnIniciar.Click += btnIniciar_Click;
             // 
-            // btnVolver
+            // mtxtFecha
             // 
-            btnVolver.Cursor = Cursors.Hand;
-            btnVolver.Image = Properties.Resources.Volver;
-            btnVolver.Location = new Point(10, 9);
-            btnVolver.Margin = new Padding(3, 2, 3, 2);
-            btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(26, 22);
-            btnVolver.SizeMode = PictureBoxSizeMode.Zoom;
-            btnVolver.TabIndex = 14;
-            btnVolver.TabStop = false;
-            btnVolver.Click += btnVolver_Click;
+            mtxtFecha.BackColor = Color.FromArgb(27, 25, 25);
+            mtxtFecha.BorderStyle = BorderStyle.None;
+            mtxtFecha.Font = new Font("Segoe UI", 12F);
+            mtxtFecha.ForeColor = Color.FromArgb(255, 206, 0);
+            mtxtFecha.Location = new Point(444, 48);
+            mtxtFecha.Mask = "00/00/0000";
+            mtxtFecha.Name = "mtxtFecha";
+            mtxtFecha.PromptChar = '-';
+            mtxtFecha.Size = new Size(139, 22);
+            mtxtFecha.TabIndex = 46;
+            mtxtFecha.ValidatingType = typeof(DateTime);
             // 
-            // pictureBox7
+            // panel3
             // 
-            pictureBox7.Cursor = Cursors.Hand;
-            pictureBox7.Image = Properties.Resources.btnTerminarAsistenciaDelDia;
-            pictureBox7.Location = new Point(367, 9);
-            pictureBox7.Margin = new Padding(3, 2, 3, 2);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(465, 70);
-            pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox7.TabIndex = 18;
-            pictureBox7.TabStop = false;
+            panel3.BackColor = Color.FromArgb(255, 206, 0);
+            panel3.Location = new Point(444, 75);
+            panel3.Margin = new Padding(3, 2, 3, 2);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(139, 5);
+            panel3.TabIndex = 34;
             // 
-            // pictureBox2
+            // btnMinimizar
             // 
-            pictureBox2.Cursor = Cursors.Hand;
-            pictureBox2.Image = Properties.Resources.Home;
-            pictureBox2.Location = new Point(1111, 9);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(26, 22);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 19;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
+            btnMinimizar.Cursor = Cursors.Hand;
+            btnMinimizar.Image = Properties.Resources.minimizar;
+            btnMinimizar.Location = new Point(1144, 25);
+            btnMinimizar.Margin = new Padding(3, 2, 3, 2);
+            btnMinimizar.Name = "btnMinimizar";
+            btnMinimizar.Size = new Size(26, 22);
+            btnMinimizar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnMinimizar.TabIndex = 45;
+            btnMinimizar.TabStop = false;
+            btnMinimizar.Click += btnMinimizar_Click_1;
             // 
-            // btnCerrar
+            // label1
             // 
-            btnCerrar.Cursor = Cursors.Hand;
-            btnCerrar.Image = Properties.Resources.cerrar;
-            btnCerrar.Location = new Point(1175, 9);
-            btnCerrar.Margin = new Padding(3, 2, 3, 2);
-            btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(26, 22);
-            btnCerrar.SizeMode = PictureBoxSizeMode.Zoom;
-            btnCerrar.TabIndex = 20;
-            btnCerrar.TabStop = false;
-            btnCerrar.Click += btnCerrar_Click;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            label1.ForeColor = Color.FromArgb(239, 239, 239);
+            label1.Location = new Point(441, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(109, 21);
+            label1.TabIndex = 33;
+            label1.Text = "Fecha del dia:";
             // 
-            // panel1
+            // txtBusqueda
             // 
-            panel1.BackColor = Color.FromArgb(255, 206, 0);
-            panel1.Location = new Point(58, 140);
-            panel1.Margin = new Padding(3, 2, 3, 2);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(774, 4);
-            panel1.TabIndex = 21;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.busqueda;
-            pictureBox3.Location = new Point(802, 113);
-            pictureBox3.Margin = new Padding(3, 2, 3, 2);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(26, 22);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 22;
-            pictureBox3.TabStop = false;
-            // 
-            // dgvAsistencias
-            // 
-            dgvAsistencias.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAsistencias.Location = new Point(58, 158);
-            dgvAsistencias.Margin = new Padding(3, 2, 3, 2);
-            dgvAsistencias.Name = "dgvAsistencias";
-            dgvAsistencias.RowHeadersWidth = 51;
-            dgvAsistencias.Size = new Size(771, 427);
-            dgvAsistencias.TabIndex = 23;
+            txtBusqueda.BackColor = Color.FromArgb(27, 25, 25);
+            txtBusqueda.BorderStyle = BorderStyle.None;
+            txtBusqueda.Cursor = Cursors.IBeam;
+            txtBusqueda.Font = new Font("Segoe UI", 12F);
+            txtBusqueda.ForeColor = Color.FromArgb(254, 254, 254);
+            txtBusqueda.Location = new Point(59, 132);
+            txtBusqueda.Margin = new Padding(3, 2, 3, 2);
+            txtBusqueda.Name = "txtBusqueda";
+            txtBusqueda.Size = new Size(739, 22);
+            txtBusqueda.TabIndex = 44;
             // 
             // groupBox1
             // 
@@ -163,19 +149,19 @@
             groupBox1.Controls.Add(lblblb4);
             groupBox1.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox1.ForeColor = Color.FromArgb(254, 254, 254);
-            groupBox1.Location = new Point(856, 140);
+            groupBox1.Location = new Point(857, 156);
             groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 2, 3, 2);
             groupBox1.Size = new Size(344, 445);
-            groupBox1.TabIndex = 24;
+            groupBox1.TabIndex = 42;
             groupBox1.TabStop = false;
             groupBox1.Text = "Asistencia";
             // 
             // rbtJustificado
             // 
             rbtJustificado.AutoSize = true;
-            rbtJustificado.Location = new Point(62, 204);
+            rbtJustificado.Location = new Point(62, 203);
             rbtJustificado.Margin = new Padding(3, 2, 3, 2);
             rbtJustificado.Name = "rbtJustificado";
             rbtJustificado.Size = new Size(137, 34);
@@ -187,7 +173,7 @@
             // rbtAusente
             // 
             rbtAusente.AutoSize = true;
-            rbtAusente.Location = new Point(62, 156);
+            rbtAusente.Location = new Point(62, 155);
             rbtAusente.Margin = new Padding(3, 2, 3, 2);
             rbtAusente.Name = "rbtAusente";
             rbtAusente.Size = new Size(113, 34);
@@ -199,7 +185,7 @@
             // rbtTarde
             // 
             rbtTarde.AutoSize = true;
-            rbtTarde.Location = new Point(62, 106);
+            rbtTarde.Location = new Point(62, 105);
             rbtTarde.Margin = new Padding(3, 2, 3, 2);
             rbtTarde.Name = "rbtTarde";
             rbtTarde.Size = new Size(85, 34);
@@ -211,7 +197,7 @@
             // rbtPresente
             // 
             rbtPresente.AutoSize = true;
-            rbtPresente.Location = new Point(62, 52);
+            rbtPresente.Location = new Point(62, 51);
             rbtPresente.Margin = new Padding(3, 2, 3, 2);
             rbtPresente.Name = "rbtPresente";
             rbtPresente.Size = new Size(118, 34);
@@ -235,6 +221,7 @@
             btnAceptar.TabIndex = 25;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = false;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // panel2
             // 
@@ -263,37 +250,92 @@
             lblblb4.AutoSize = true;
             lblblb4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             lblblb4.ForeColor = Color.FromArgb(239, 239, 239);
-            lblblb4.Location = new Point(19, 279);
+            lblblb4.Location = new Point(19, 278);
             lblblb4.Name = "lblblb4";
             lblblb4.Size = new Size(100, 21);
             lblblb4.TabIndex = 6;
             lblblb4.Text = "Comentario:";
             // 
-            // txtBusqueda
+            // dgvAsistencias
             // 
-            txtBusqueda.BackColor = Color.FromArgb(27, 25, 25);
-            txtBusqueda.BorderStyle = BorderStyle.None;
-            txtBusqueda.Cursor = Cursors.IBeam;
-            txtBusqueda.Font = new Font("Segoe UI", 12F);
-            txtBusqueda.ForeColor = Color.FromArgb(254, 254, 254);
-            txtBusqueda.Location = new Point(58, 116);
-            txtBusqueda.Margin = new Padding(3, 2, 3, 2);
-            txtBusqueda.Name = "txtBusqueda";
-            txtBusqueda.Size = new Size(739, 22);
-            txtBusqueda.TabIndex = 30;
+            dgvAsistencias.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvAsistencias.Location = new Point(59, 174);
+            dgvAsistencias.Margin = new Padding(3, 2, 3, 2);
+            dgvAsistencias.Name = "dgvAsistencias";
+            dgvAsistencias.RowHeadersWidth = 51;
+            dgvAsistencias.Size = new Size(771, 427);
+            dgvAsistencias.TabIndex = 41;
             // 
-            // btnMinimizar
+            // pictureBox3
             // 
-            btnMinimizar.Cursor = Cursors.Hand;
-            btnMinimizar.Image = Properties.Resources.minimizar;
-            btnMinimizar.Location = new Point(1143, 9);
-            btnMinimizar.Margin = new Padding(3, 2, 3, 2);
-            btnMinimizar.Name = "btnMinimizar";
-            btnMinimizar.Size = new Size(26, 22);
-            btnMinimizar.SizeMode = PictureBoxSizeMode.Zoom;
-            btnMinimizar.TabIndex = 31;
-            btnMinimizar.TabStop = false;
-            btnMinimizar.Click += btnMinimizar_Click;
+            pictureBox3.Image = Properties.Resources.busqueda;
+            pictureBox3.Location = new Point(803, 129);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(26, 22);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 40;
+            pictureBox3.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(255, 206, 0);
+            panel1.Location = new Point(59, 156);
+            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(774, 4);
+            panel1.TabIndex = 39;
+            // 
+            // btnCerrar
+            // 
+            btnCerrar.Cursor = Cursors.Hand;
+            btnCerrar.Image = Properties.Resources.cerrar;
+            btnCerrar.Location = new Point(1176, 25);
+            btnCerrar.Margin = new Padding(3, 2, 3, 2);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new Size(26, 22);
+            btnCerrar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnCerrar.TabIndex = 38;
+            btnCerrar.TabStop = false;
+            btnCerrar.Click += btnCerrar_Click_1;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = Properties.Resources.Home;
+            pictureBox2.Location = new Point(1112, 25);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(26, 22);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 37;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click_1;
+            // 
+            // btnVolver
+            // 
+            btnVolver.Cursor = Cursors.Hand;
+            btnVolver.Image = Properties.Resources.Volver;
+            btnVolver.Location = new Point(11, 25);
+            btnVolver.Margin = new Padding(3, 2, 3, 2);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(26, 22);
+            btnVolver.SizeMode = PictureBoxSizeMode.Zoom;
+            btnVolver.TabIndex = 36;
+            btnVolver.TabStop = false;
+            btnVolver.Click += btnVolver_Click_1;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.LogoPNG1;
+            pictureBox1.InitialImage = Properties.Resources.LogoPNG;
+            pictureBox1.Location = new Point(59, 25);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(91, 72);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 35;
+            pictureBox1.TabStop = false;
             // 
             // frmAsistencias
             // 
@@ -302,7 +344,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 25, 25);
             ClientSize = new Size(1212, 625);
+            Controls.Add(btnIniciar);
+            Controls.Add(mtxtFecha);
+            Controls.Add(panel3);
             Controls.Add(btnMinimizar);
+            Controls.Add(label1);
             Controls.Add(txtBusqueda);
             Controls.Add(groupBox1);
             Controls.Add(dgvAsistencias);
@@ -310,7 +356,6 @@
             Controls.Add(panel1);
             Controls.Add(btnCerrar);
             Controls.Add(pictureBox2);
-            Controls.Add(pictureBox7);
             Controls.Add(btnVolver);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
@@ -319,41 +364,43 @@
             Name = "frmAsistencias";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Asistencias";
-            Load += frmAsistencias_Load_1;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)btnVolver).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)btnCerrar).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvAsistencias).EndInit();
+            Load += frmAsistencias_Load;
+            ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvAsistencias).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnCerrar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnVolver).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private PictureBox btnVolver;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox2;
-        private PictureBox btnCerrar;
-        private Panel panel1;
-        private PictureBox pictureBox3;
-        private DataGridView dgvAsistencias;
+        private Button btnIniciar;
+        private MaskedTextBox mtxtFecha;
+        private Panel panel3;
+        private PictureBox btnMinimizar;
+        private Label label1;
+        private TextBox txtBusqueda;
         private GroupBox groupBox1;
-        private Panel panel2;
-        private TextBox txtComentario;
-        private Label lblblb4;
-        private RadioButton rbtPresente;
-        private Button btnAceptar;
         private RadioButton rbtJustificado;
         private RadioButton rbtAusente;
         private RadioButton rbtTarde;
-        private TextBox txtBusqueda;
-        private PictureBox btnMinimizar;
+        private RadioButton rbtPresente;
+        private Button btnAceptar;
+        private Panel panel2;
+        private TextBox txtComentario;
+        private Label lblblb4;
+        private DataGridView dgvAsistencias;
+        private PictureBox pictureBox3;
+        private Panel panel1;
+        private PictureBox btnCerrar;
+        private PictureBox pictureBox2;
+        private PictureBox btnVolver;
+        private PictureBox pictureBox1;
     }
 }

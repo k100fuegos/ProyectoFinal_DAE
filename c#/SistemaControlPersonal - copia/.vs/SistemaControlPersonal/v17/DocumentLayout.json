@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\paginaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|c:\\users\\kelvi\\downloads\\tareas\\segundo periodo\\dae\\proyecto final\\c#\\sistemacontrolpersonal\\sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B83F97-8A48-4509-94EF-888AA06DB02D}|SistemaControlPersonal\\SistemaControlPersonal.csproj|solutionrelative:sistemacontrolpersonal\\formularios\\asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaginaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAASwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:07:17.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaginaPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\PaginaPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:07:15.907Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Asistencias.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAjwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:05:13.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Asistencias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "RelativeDocumentMoniker": "SistemaControlPersonal\\Formularios\\Asistencias.cs",
+              "ToolTip": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\Formularios\\Asistencias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaControlPersonal\\Formularios\\Asistencias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:05:11.656Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

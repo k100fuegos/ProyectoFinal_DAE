@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Enums\" />
+    <Folder Include="Core\Src\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Formularios\Asistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CCargos\Cargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CCargos\CargosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CCargos\CargosAniadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CEmpleados\EmpleadosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CEmpleados\EmpleadosAniadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\CEmpleados\Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Administracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
