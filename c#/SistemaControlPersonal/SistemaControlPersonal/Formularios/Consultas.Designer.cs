@@ -38,11 +38,13 @@
             txtBusqueda = new TextBox();
             btnMinimizar = new PictureBox();
             panel2 = new Panel();
-            txtFechaInicio = new TextBox();
             lblblb4 = new Label();
             panel3 = new Panel();
             txtFechaFin = new TextBox();
             label1 = new Label();
+            mtxtFechaInicio = new MaskedTextBox();
+            mtxtFechaFin = new MaskedTextBox();
+            btnFiltrar = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnVolver).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -168,19 +170,6 @@
             panel2.Size = new Size(306, 4);
             panel2.TabIndex = 34;
             // 
-            // txtFechaInicio
-            // 
-            txtFechaInicio.BackColor = Color.FromArgb(27, 25, 25);
-            txtFechaInicio.BorderStyle = BorderStyle.None;
-            txtFechaInicio.Cursor = Cursors.IBeam;
-            txtFechaInicio.Font = new Font("Segoe UI", 12F);
-            txtFechaInicio.ForeColor = Color.FromArgb(254, 254, 254);
-            txtFechaInicio.Location = new Point(197, 46);
-            txtFechaInicio.Margin = new Padding(3, 2, 3, 2);
-            txtFechaInicio.Name = "txtFechaInicio";
-            txtFechaInicio.Size = new Size(306, 22);
-            txtFechaInicio.TabIndex = 33;
-            // 
             // lblblb4
             // 
             lblblb4.AutoSize = true;
@@ -225,6 +214,50 @@
             label1.TabIndex = 35;
             label1.Text = "Fecha de fin:";
             // 
+            // mtxtFechaInicio
+            // 
+            mtxtFechaInicio.BackColor = Color.FromArgb(27, 25, 25);
+            mtxtFechaInicio.BorderStyle = BorderStyle.None;
+            mtxtFechaInicio.Font = new Font("Segoe UI", 12F);
+            mtxtFechaInicio.ForeColor = Color.FromArgb(254, 254, 254);
+            mtxtFechaInicio.Location = new Point(197, 45);
+            mtxtFechaInicio.Mask = "00/00/0000";
+            mtxtFechaInicio.Name = "mtxtFechaInicio";
+            mtxtFechaInicio.PromptChar = '-';
+            mtxtFechaInicio.Size = new Size(291, 22);
+            mtxtFechaInicio.TabIndex = 80;
+            mtxtFechaInicio.ValidatingType = typeof(DateTime);
+            // 
+            // mtxtFechaFin
+            // 
+            mtxtFechaFin.BackColor = Color.FromArgb(27, 25, 25);
+            mtxtFechaFin.BorderStyle = BorderStyle.None;
+            mtxtFechaFin.Font = new Font("Segoe UI", 12F);
+            mtxtFechaFin.ForeColor = Color.FromArgb(254, 254, 254);
+            mtxtFechaFin.Location = new Point(571, 46);
+            mtxtFechaFin.Mask = "00/00/0000";
+            mtxtFechaFin.Name = "mtxtFechaFin";
+            mtxtFechaFin.PromptChar = '-';
+            mtxtFechaFin.Size = new Size(291, 22);
+            mtxtFechaFin.TabIndex = 81;
+            mtxtFechaFin.ValidatingType = typeof(DateTime);
+            // 
+            // btnFiltrar
+            // 
+            btnFiltrar.BackColor = Color.FromArgb(27, 25, 25);
+            btnFiltrar.FlatAppearance.BorderColor = Color.FromArgb(255, 206, 0);
+            btnFiltrar.FlatAppearance.BorderSize = 2;
+            btnFiltrar.FlatStyle = FlatStyle.Flat;
+            btnFiltrar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnFiltrar.ForeColor = Color.FromArgb(254, 254, 254);
+            btnFiltrar.Location = new Point(931, 44);
+            btnFiltrar.Margin = new Padding(3, 2, 3, 2);
+            btnFiltrar.Name = "btnFiltrar";
+            btnFiltrar.Size = new Size(106, 32);
+            btnFiltrar.TabIndex = 82;
+            btnFiltrar.Text = "Filtrar";
+            btnFiltrar.UseVisualStyleBackColor = false;
+            // 
             // Consultas
             // 
             AccessibleRole = AccessibleRole.Client;
@@ -232,11 +265,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 25, 25);
             ClientSize = new Size(1212, 625);
+            Controls.Add(btnFiltrar);
+            Controls.Add(mtxtFechaFin);
+            Controls.Add(mtxtFechaInicio);
             Controls.Add(panel3);
             Controls.Add(txtFechaFin);
             Controls.Add(panel2);
             Controls.Add(label1);
-            Controls.Add(txtFechaInicio);
             Controls.Add(lblblb4);
             Controls.Add(btnMinimizar);
             Controls.Add(txtBusqueda);
@@ -277,10 +312,12 @@
         private TextBox txtBusqueda;
         private PictureBox btnMinimizar;
         private Panel panel2;
-        private TextBox txtFechaInicio;
         private Label lblblb4;
         private Panel panel3;
         private TextBox txtFechaFin;
         private Label label1;
+        private MaskedTextBox mtxtFechaInicio;
+        private MaskedTextBox mtxtFechaFin;
+        private Button btnFiltrar;
     }
 }
