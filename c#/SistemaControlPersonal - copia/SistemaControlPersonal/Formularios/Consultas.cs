@@ -48,5 +48,10 @@ namespace SistemaControlPersonal.Formularios
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void Consultas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

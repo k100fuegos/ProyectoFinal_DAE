@@ -10,9 +10,8 @@
 
 namespace SistemaControlPersonal.Properties {
     using System;
-    using System.Drawing;
-
-
+    
+    
     /// <summary>
     ///   Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
     /// </summary>
@@ -24,7 +23,7 @@ namespace SistemaControlPersonal.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        internal static Image btnCalcularPago;
+        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -87,6 +86,26 @@ namespace SistemaControlPersonal.Properties {
         internal static System.Drawing.Bitmap btnAdministracion {
             get {
                 object obj = ResourceManager.GetObject("btnAdministracion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnAgregarCargo {
+            get {
+                object obj = ResourceManager.GetObject("btnAgregarCargo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnAgregarCargo1 {
+            get {
+                object obj = ResourceManager.GetObject("btnAgregarCargo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -157,6 +176,36 @@ namespace SistemaControlPersonal.Properties {
         internal static System.Drawing.Bitmap btnConsultasReportes {
             get {
                 object obj = ResourceManager.GetObject("btnConsultasReportes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnEditarCargo {
+            get {
+                object obj = ResourceManager.GetObject("btnEditarCargo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnEditarCargo1 {
+            get {
+                object obj = ResourceManager.GetObject("btnEditarCargo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnEliminarCargo {
+            get {
+                object obj = ResourceManager.GetObject("btnEliminarCargo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

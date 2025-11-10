@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HUPq5CcOWPU=",
+  "dgSpecHash": "Xk6x0kfbMkM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
+  "projectFilePath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kelvi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\kelvi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

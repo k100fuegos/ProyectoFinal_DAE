@@ -4,6 +4,9 @@
     <Compile Update="Formularios\CalculoPagos.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\CCargos\Cargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\InicioDeSecion.cs">
       <SubType>Form</SubType>
     </Compile>

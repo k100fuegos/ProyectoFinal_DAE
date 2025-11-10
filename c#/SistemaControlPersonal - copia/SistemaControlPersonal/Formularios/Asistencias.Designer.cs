@@ -136,6 +136,7 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(739, 22);
             txtBusqueda.TabIndex = 44;
+            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
             // 
             // groupBox1
             // 
@@ -265,6 +266,7 @@
             dgvAsistencias.RowHeadersWidth = 51;
             dgvAsistencias.Size = new Size(771, 427);
             dgvAsistencias.TabIndex = 41;
+            dgvAsistencias.SelectionChanged += dgvAsistencias_SelectionChanged;
             // 
             // pictureBox3
             // 
@@ -364,6 +366,7 @@
             Name = "frmAsistencias";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Asistencias";
+            Load += frmAsistencias_Load;
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
