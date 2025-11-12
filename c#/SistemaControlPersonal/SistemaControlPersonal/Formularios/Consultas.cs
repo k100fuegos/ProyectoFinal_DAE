@@ -56,7 +56,6 @@ namespace SistemaControlPersonal.Formularios
 
             // cargo (nombre, descripcion, tipo pago, salario base)
             Add("nombre_cargoCol", "Cargo", "NombreCargo", 120);
-            Add("descripcion_cargoCol", "Descripción Cargo", "DescripcionCargo", 160);
             Add("tipo_pagoCol", "Tipo Pago", "TipoPago", 90);
             Add("salario_baseCol", "Salario Base", "SalarioBase", 100);
 

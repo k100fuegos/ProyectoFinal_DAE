@@ -56,7 +56,7 @@
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[10.0.0, )"
             }
           },
           "imports": [

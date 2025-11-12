@@ -36,6 +36,7 @@ namespace SistemaControlPersonal.Core.Dao
                     LEFT JOIN Cargo C ON E.ID_Cargo = C.ID_Cargo
                     LEFT JOIN Asistencias A ON E.ID_Empleado = A.ID_Empleado
                         {fechaJoin}
+                    WHERE ISNULL(E.estado_laboral, '') <> 'Inactivo'
                     ORDER BY
                         E.nombre_empleado DESC;";
 
