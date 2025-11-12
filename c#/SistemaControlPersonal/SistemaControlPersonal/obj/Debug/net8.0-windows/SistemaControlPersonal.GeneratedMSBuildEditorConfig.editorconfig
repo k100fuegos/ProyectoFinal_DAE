@@ -14,7 +14,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaControlPersonal
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\mined\Desktop\PROYECTO DAE\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\
+=======
+build_property.ProjectDir = C:\Users\henry\OneDrive\Documentos\a DAE 2025\PROYECTOFINALLLL\ProyectoFinal_DAE\c#\SistemaControlPersonal\SistemaControlPersonal\
+>>>>>>> c1c53d6786da94c4b5ead048d775554582a37e5b
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
