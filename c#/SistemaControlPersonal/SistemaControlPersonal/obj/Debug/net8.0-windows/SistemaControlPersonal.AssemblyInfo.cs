@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaControlPersonal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5b91416a33e69fb2292d0ce18b600677025dd82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1c53d6786da94c4b5ead048d775554582a37e5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaControlPersonal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaControlPersonal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

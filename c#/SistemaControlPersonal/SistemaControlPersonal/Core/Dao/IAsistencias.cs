@@ -1,6 +1,4 @@
 ﻿using SistemaControlPersonal.Core.Clases;
-using System;
-using System.Collections.Generic;
 
 namespace SistemaControlPersonal.Core.Dao
 {

@@ -1,10 +1,5 @@
 ﻿using PracticaVehiculo.Core.Enums;
-using SistemaControlPersonal.Core.Clases;
 using SistemaControlPersonal.Core.Dao;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
 
 namespace SistemaControlPersonal.Formularios
 {

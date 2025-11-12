@@ -1,14 +1,5 @@
-﻿using SistemaControlPersonal.Core.Lib;
-using SistemaControlPersonal.Core.Dao;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using SistemaControlPersonal.Core.Dao;
+using SistemaControlPersonal.Core.Lib;
 
 namespace SistemaControlPersonal.Formularios
 {

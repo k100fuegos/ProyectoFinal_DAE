@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SistemaControlPersonal.Core.Clases
+﻿namespace SistemaControlPersonal.Core.Clases
 {
     internal class Asistencias
     {
@@ -12,8 +6,8 @@ namespace SistemaControlPersonal.Core.Clases
         private string fecha;
         private string estado_asistencia;
         private string nota;
-        private int codigoEmpleado; 
-        private string codigoExterno; 
+        private int codigoEmpleado;
+        private string codigoExterno;
         private string nombreEmpleado;
         private string cargo;
 

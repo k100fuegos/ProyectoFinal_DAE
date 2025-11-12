@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SistemaControlPersonal.Core.Enums
+﻿namespace SistemaControlPersonal.Core.Enums
 {
     public enum TiposPagos
     {
