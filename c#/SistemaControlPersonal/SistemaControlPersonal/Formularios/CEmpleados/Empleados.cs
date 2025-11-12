@@ -1,8 +1,4 @@
 ﻿using SistemaControlPersonal.Core.Dao;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
 using EmpleadoModel = SistemaControlPersonal.Core.Clases.Empleados;
 
 namespace SistemaControlPersonal.Formularios

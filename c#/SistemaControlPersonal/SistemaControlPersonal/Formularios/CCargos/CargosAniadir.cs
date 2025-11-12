@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using SistemaControlPersonal.Core.Clases;
-using SistemaControlPersonal.Core.Dao;
+﻿using SistemaControlPersonal.Core.Dao;
 using SistemaControlPersonal.Core.Enums;
+using System.Globalization;
 using CoreCargos = SistemaControlPersonal.Core.Clases.Cargos;
 
 namespace SistemaControlPersonal.Formularios.CCargos

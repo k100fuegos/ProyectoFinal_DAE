@@ -6,10 +6,29 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ConstruGlobal</AssemblyName>
+    <PackageId>ConstruGlobal</PackageId>
+    <Title>ConstruGlobal</Title>
+    <Authors>iqueños</Authors>
+    <Description>Sistema de control de asistencias y pagos
+</Description>
+    <Copyright>100FIRE</Copyright>
+    <ApplicationIcon>Core\Src\LogoPNG.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Core\Src\" />
+=======
+    <None Remove="LogoPNG.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Core\Src\LogoPNG.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+>>>>>>> e98e790d24629c9a126154a504993dc164f16b88
     <Folder Include="AppData\" />
   </ItemGroup>
 

@@ -1,8 +1,6 @@
 using Microsoft.Data.SqlClient;
 using SistemaControlPersonal.Core.Lib;
-using System;
 using System.Data;
-using System.Windows.Forms;
 
 namespace SistemaControlPersonal.Core.Dao
 {

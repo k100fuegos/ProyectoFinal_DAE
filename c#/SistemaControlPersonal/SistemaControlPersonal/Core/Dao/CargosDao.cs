@@ -1,8 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using SistemaControlPersonal.Core.Clases;
 using SistemaControlPersonal.Core.Lib;
-using System;
-using System.Collections.Generic;
 using System.Data;
 
 namespace SistemaControlPersonal.Core.Dao

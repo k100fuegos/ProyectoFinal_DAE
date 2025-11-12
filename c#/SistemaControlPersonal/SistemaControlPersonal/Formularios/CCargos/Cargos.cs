@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows.Forms;
-using SistemaControlPersonal.Core.Dao;
+﻿using SistemaControlPersonal.Core.Dao;
 using CoreCargos = SistemaControlPersonal.Core.Clases.Cargos;
 
 namespace SistemaControlPersonal.Formularios.CCargos

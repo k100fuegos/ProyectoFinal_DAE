@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
-using System.Globalization;
+﻿using SistemaControlPersonal.Core.Clases;
 using SistemaControlPersonal.Core.Dao;
-using SistemaControlPersonal.Core.Clases;
+using System.Globalization;
 
 namespace SistemaControlPersonal.Formularios
 {

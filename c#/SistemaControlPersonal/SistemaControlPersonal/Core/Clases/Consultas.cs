@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SistemaControlPersonal.Core.Clases
+﻿namespace SistemaControlPersonal.Core.Clases
 {
     internal class Consultas
     {
