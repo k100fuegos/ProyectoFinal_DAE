@@ -1,23 +1,57 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\mined\\Desktop\\PROYECTO DAE\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mined\\Desktop\\PROYECTO DAE\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mined\\Desktop\\PROYECTO DAE\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
+        "projectName": "SistemaControlPersonal",
+        "projectPath": "C:\\Users\\mined\\Desktop\\PROYECTO DAE\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
+        "packagesPath": "C:\\Users\\mined\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mined\\Desktop\\PROYECTO DAE\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\obj\\",
+=======
+    "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINALLLL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj": {}
+>>>>>>> 2e7aedb93561b694c499344f596517f987f22931
   },
   "projects": {
     "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj": {
       "version": "1.0.0",
       "restore": {
+<<<<<<< HEAD
         "projectUniqueName": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
         "projectName": "ConstruGlobal",
         "projectPath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
         "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\kelvi\\Downloads\\Tareas\\Segundo periodo\\DAE\\proyecto final\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\obj\\",
+=======
+        "projectUniqueName": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINALLLL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
+        "projectName": "SistemaControlPersonal",
+        "projectPath": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINALLLL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\SistemaControlPersonal.csproj",
+        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henry\\OneDrive\\Documentos\\a DAE 2025\\PROYECTOFINALLLL\\ProyectoFinal_DAE\\c#\\SistemaControlPersonal\\SistemaControlPersonal\\obj\\",
+>>>>>>> c1c53d6786da94c4b5ead048d775554582a37e5b
+>>>>>>> 2e7aedb93561b694c499344f596517f987f22931
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+          "C:\\Users\\mined\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> c1c53d6786da94c4b5ead048d775554582a37e5b
+>>>>>>> 2e7aedb93561b694c499344f596517f987f22931
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
