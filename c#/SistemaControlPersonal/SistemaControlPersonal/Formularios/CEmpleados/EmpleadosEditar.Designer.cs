@@ -377,6 +377,7 @@
             txtDUI.ForeColor = Color.FromArgb(254, 254, 254);
             txtDUI.Location = new Point(41, 173);
             txtDUI.Margin = new Padding(3, 2, 3, 2);
+            txtDUI.MaxLength = 9;
             txtDUI.Name = "txtDUI";
             txtDUI.Size = new Size(306, 22);
             txtDUI.TabIndex = 57;
@@ -485,6 +486,7 @@
             txtTelefono.ForeColor = Color.FromArgb(254, 254, 254);
             txtTelefono.Location = new Point(41, 243);
             txtTelefono.Margin = new Padding(3, 2, 3, 2);
+            txtTelefono.MaxLength = 15;
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(306, 22);
             txtTelefono.TabIndex = 60;
